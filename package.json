@@ -7,7 +7,8 @@
     "url": "git://github.com/aboqasem/ai-luminance-server.git"
   },
   "scripts": {
-    "start": "nodemon ./src/bin/www",
+    "start": "node ./src/bin/www",
+    "dev": "nodemon ./src/bin/www",
     "lint": "eslint src/"
   },
   "dependencies": {
