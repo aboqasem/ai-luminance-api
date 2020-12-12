@@ -14,6 +14,7 @@
     "brain.js": "^2.0.0-beta.2",
     "cors": "^2.8.5",
     "express": "~4.16.1",
+    "express-validator": "^6.8.0",
     "morgan": "^1.10.0"
   },
   "license": "MIT",

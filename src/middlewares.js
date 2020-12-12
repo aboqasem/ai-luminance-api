@@ -1,3 +1,10 @@
+const { query } = require('express-validator');
+
+const rgbValuesValidator = [
+  query(['r', 'g', 'b'])
+    .isInt({ min: 0, max: 255 }),
+];
+
 const notFound = (req, res, next) => {
   const error = new Error(`Not Found: ${req.originalUrl}`);
   res.status(404);
@@ -14,4 +21,4 @@ const errorHandler = (error, req, res, next) => {
     });
 };
 
-module.exports = { notFound, errorHandler };
+module.exports = { rgbValuesValidator, notFound, errorHandler };
