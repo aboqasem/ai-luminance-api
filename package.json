@@ -1,7 +1,7 @@
 {
   "name": "ai-luminance-server",
   "version": "1.0.0",
-  "description": "Random color luminance detector with brain.js neural networks.",
+  "description": "Color luminance detector with brain.js neural networks.",
   "repository": {
     "type": "git",
     "url": "git://github.com/aboqasem/ai-luminance-server.git"
