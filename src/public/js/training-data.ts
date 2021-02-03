@@ -1,7 +1,14 @@
-const { luminance } = require('./relative-luminance');
-const { randomRGB, relativeRGB } = require('./rgb-helpers');
+import luminance from './relative-luminance';
+import { randomRGB, relativeRGB } from './rgb-helpers';
 
-const data = [];
+const data: {
+  input: {
+    r: string;
+    g: string;
+    b: string;
+  };
+  output: { Light: 1 | 0; Dark: 1 | 0 };
+}[] = [];
 
 (() => {
   for (let i = 0; i < 500; i += 1) {
@@ -36,4 +43,4 @@ const data = [];
   }
 })();
 
-module.exports = { data };
+export default data;
