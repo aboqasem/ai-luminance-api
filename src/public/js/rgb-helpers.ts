@@ -6,7 +6,7 @@ function randomRGB() {
   };
 }
 
-function relativeRGB({ r, g, b }) {
+function relativeRGB({ r, g, b }: { r: number, g: number, b: number}) {
   return {
     r: r / 255,
     g: g / 255,
@@ -14,4 +14,4 @@ function relativeRGB({ r, g, b }) {
   };
 }
 
-module.exports = { randomRGB, relativeRGB };
+export { randomRGB, relativeRGB };
