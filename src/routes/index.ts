@@ -2,8 +2,8 @@ import { Router, Request, Response } from 'express';
 import { validationResult } from 'express-validator';
 import brain from 'brain.js';
 
-import data from '../public/js/training-data';
-import { randomRGB, relativeRGB } from '../public/js/rgb-helpers';
+import data from '../utils/training-data';
+import { randomRGB, relativeRGB } from '../utils/rgb-helpers';
 import { rgbValuesValidator } from '../middlewares';
 
 const router = Router();
