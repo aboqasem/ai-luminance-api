@@ -1,4 +1,4 @@
-# [AI Luminance Server](https://ai-luminance.herokuapp.com/)
+# [AI Luminance API](https://ai-luminance.herokuapp.com/)
 
 - Home page [`'/'`](https://ai-luminance.herokuapp.com/) responds with a random color.
 
